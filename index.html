@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Sushi Bar: CSS Grid Básico</title>
+</head>
+<body>
+
+    <nav>
+        <div class="mobile-menu">
+            <ul>
+                <li>  
+                    <img src="./icons/icon_menu.svg" alt="Logo" class="menu">
+                </li>
+                <li class="li-item"> 
+                    <a href="index.html#hero-div" id="hero">Home</a> 
+                </li>
+                <li class="li-item"> 
+                    <a href="index.html#top-div" id="top">Top</a> 
+                </li>
+                <li class="li-item"> 
+                    <a href="index.html#menu-final">Menú</a> 
+                </li>
+                <li class="li-item"> 
+                    <a href="index.html#contacto-footer" id="contacto">Contacto</a> 
+                </li>
+            </ul>
+        </div>
+
+        <div class="desktop-menu inactive">
+            <ul>
+                <li>
+                    <a href="index.html#top-div" id="top-div">Top</a> 
+                </li>
+    
+                <li>
+                    <a href="index.html#menu-final">Menú</a> 
+                </li>
+    
+                <li>
+                    <a href="index.html#contacto-footer" id="contacto">Contacto</a> 
+                </li>
+            </ul>
+    
+        </div>
+    </nav>
+
+
+    <!--El main me deja agregar márgenes a los lados-->
+    <main>
+        <!-- Primera sección -->
+        <section class="hero" id="#hero">
+
+            <div class="info">
+                <h1 class="info-title"> Prueba el <br> mejor Sushi</h1>
+                <p class="info-subtitle"> En <span>Sushi Bar </span> encontrarás los platos más exquisitos para tu paladar.</p>
+                <button class="info-button">Pedir ahora </button>
+            </div>
+
+            <img src="./img/hero-principal.png" class="hero-image" alt="Plato de sushi">
+
+        </section>
+
+        <!-- Segunda sección -->
+        <section class="dishes" id="top">
+            <h2 class="dishes-title">Top de la semana</h2>
+            <div class="dishes-grid">
+                <img class="dishes-item item__big" src="./img/top1.jpg" alt="Variedad de sushi">
+                <img class="dishes-item it1" src="./img/top2.jpg" alt="Sushi roll frío">
+                <img class="dishes-item it2" src="./img/top3.jpg" alt="Plato de sushi">
+                <img class="dishes-item it3" src="./img/top4.jpg" alt="Sushi roll tempura">
+                <img class="dishes-item it4" src="./img/top5.jpg" alt="Sushi roll de aguacate">
+            </div>
+
+        </section> 
+
+        <!-- Tercera sección -->
+        <section class="menu-container" id="menu-final">
+            <h2 class="menu-title">Nuestro menú</h2>
+            <div class="menu-grid">
+                <img class="menu-item item1" src="./img/menu5.webp" alt="">
+                <img class="menu-item item2" src="./img/menu3.png" alt="">
+                <img class="menu-item item3" src="./img/menu2.jpg" alt="">
+                <img class="menu-item item4" src="./img/menu1.png" alt="">
+                <img class="menu-item item5" src="./img/menu4.jpg" alt="">
+            </div>
+
+        </section> 
+
+    </main>
+
+    <footer id="contacto-footer">
+        <ul>
+            <li class="li-footer">Create by: Any Omaña</li>
+            <li class="li-footer">iamanayyeei@gmail.com</li>
+            <li class="li-footer">
+                <a href="">GitHub: @iamanayyeei</a>
+            </li>
+            <li class="git">
+                <a href="https://github.com/iamanayyeei">GitHub: @iamanayyeei</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="./main.js"></script>
+
+</body>
+</html>
